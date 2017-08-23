@@ -1,0 +1,49 @@
+@import '../../../styles/settings/settings.color';
+
+.Input-Color-Picker {
+    .black { background-color: #2f2f2f; }
+    .white { background-color: #fff; }
+    .gray { background-color: #a1a1a1; }
+    .silver { background-color: silver; }
+    .gold { background-color: #dcc077; }
+    .yellow { background-color: #fbec2b; }
+    .green { background-color: #1e9f2d; }
+    .red { background-color: #e41519; }
+    .blue { background-color: #1a5fcd; }
+    .orange { background-color: #f28214; }
+    .pink { background-color: #ed54a6; }
+    .brown { background-color: #593823; }
+    .purple { background-color: #9a72cd; }
+
+    .active {
+        border-color: $color-secondary;
+    }
+
+    display: absolute;
+}
+
+.Color {
+    margin: 0px 10px 0px 10px;
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    border-radius: 50%;
+    border: 1px solid #e5e5e5;
+}
+
+.hidden-xs-up {
+    
+}
+
+.Border {
+    width: 160px;
+    border: 1px solid $grey-lighter;
+    border-radius: 5px;
+    display: inline-flex;
+    padding: 10px;
+    margin: 5px;
+
+    .active {
+        border-color: $color-secondary;
+    }
+}
